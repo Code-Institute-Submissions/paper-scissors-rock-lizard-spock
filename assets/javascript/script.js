@@ -1,5 +1,5 @@
 /* https://stackoverflow.com/questions/27441803 */
-/*jshint esversion: 6 */
+/*jshint esversion: 8 */
 /* Cache DOM elements */
 const buttons = document.getElementsByClassName("control");
 const playerImage = document.getElementById("player-image");
