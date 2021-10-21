@@ -112,5 +112,15 @@ li {
 }
 
 /* Add border styling to message area */
+.message-area {
+  border: 3px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px #999;
+  background-color: #04AA6D;
+}
 
 /* Center items in all modals */
+.modal-body {
+  text-align: center;
+  width: 100%;
+}
