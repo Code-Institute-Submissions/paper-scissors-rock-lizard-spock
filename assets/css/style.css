@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-/* root colors for theme */
+/* root colors palette for theme */
 :root {
   --red: 	#f40234;
   --orange: #f0532c;
@@ -10,6 +10,11 @@
 }
 
 /* stackoverflow.com/questions/41274876 */
+html, body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
 /* Body Styling and background image */
 
