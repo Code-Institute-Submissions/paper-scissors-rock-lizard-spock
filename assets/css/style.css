@@ -1,1 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* root colors for theme */
+:root {
+  --red: 	#f40234;
+  --orange: #f0532c;
+  --yellow: #f0882f;
+  --green: #688b2e;
+  --blue: #013f73;
+}
+
+/* stackoverflow.com/questions/41274876 */
+
+/* Body Styling and background image */
+
+/* Font colors */
+
+/* button styling */
+
+/* Change bootstrap hover default styling */
+
+/* Remove bullet points style from rule list */
+
+/* Change font size of list styling */
+
+/* Score count circle styling */
+
+/* Add border styling to choice area */
+
+/* Add border styling to message area */
+
+/* Center items in all modals */
