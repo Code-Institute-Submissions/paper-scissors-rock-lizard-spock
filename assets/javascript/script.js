@@ -12,7 +12,7 @@ const loserResetButton = document.getElementById("loserReset");
 
 /**
  * Function to run scrolling title text displaying name of game
-*/
+ */
 // https://stackoverflow.com/questions/16354122/
 (function titleScroller(text) {
   document.title = text;
@@ -23,7 +23,7 @@ const loserResetButton = document.getElementById("loserReset");
 
 /**
  * Add event listener to all player choice buttons
-*/
+ */
 for (let button of buttons) {
   button.addEventListener("click", function () {
     let playerChoice = this.getAttribute("data-type");
@@ -34,7 +34,7 @@ for (let button of buttons) {
 /**
  * This is for the core game functionality. Takes the data-type value parameter of the selected button
  * and generates random computer choice from choices array
-*/
+ */
 function playGame(playerChoice) {
   playerImage.src = `assets/images/player-${choices[playerChoice]}.png`;
   let computerChoice = Math.floor(Math.random() * 5);
@@ -47,7 +47,7 @@ function playGame(playerChoice) {
 
 /**
  * Compares playerChoice and computerChoice data strings to check winner of game
-*/
+ */
 function checkWinner(playerChoice, computerChoice) {
   /* If player chooses rock */
   if (playerChoice === "rock" && computerChoice === "rock") {
@@ -153,7 +153,7 @@ function checkWinner(playerChoice, computerChoice) {
 
 /**
  * Take user score from the DOM and increment by 1
-*/
+ */
 function addUserScore() {
   let oldScore = parseInt(document.getElementById("player-score").textContent);
   document.getElementById("player-score").textContent = ++oldScore;
@@ -161,7 +161,7 @@ function addUserScore() {
 
 /**
  * Take computer score from the DOM and increment by 1
-*/
+ */
 function addComputerScore() {
 let oldScore = parseInt(document.getElementById("computer-score").textContent);
 document.getElementById("computer-score").textContent = ++oldScore;
@@ -170,7 +170,7 @@ document.getElementById("computer-score").textContent = ++oldScore;
 /**
  * Launch winner / loser modal based on keeping count of player scores 
  * and triggering once score of 5 is met
-*/
+ */
 function trackRounds() {
   let playerScore = parseInt(document.getElementById("player-score").textContent);
   let computerScore = parseInt(document.getElementById("computer-score").textContent);
@@ -194,8 +194,13 @@ function resetFunction() {
   location.reload();
 }
 
-function resetWinner() {
-
+/* Add event listener to reset at the bottom of winner modal */
+winnerResetButton.addEventListener("click", resetWinnerFunction);
+/**
+ * Trigger reload page button at bottom of winner modal
+ */
+function resetWinnerFunction() {
+  location.reload();
 }
 
 function resetLoser() {
