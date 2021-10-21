@@ -30,3 +30,35 @@ const loserResetButton = document.getElementById("loserReset");
     playGame(playerChoice);
   });
 }
+
+function playGame() {
+
+}
+
+function checkWinner() {
+
+}
+
+function addUserScore() {
+
+}
+
+function addComputerScore() {
+
+}
+
+function trackRounds() {
+
+}
+
+function resetGame() {
+
+}
+
+function resetWinner() {
+
+}
+
+function resetLoser() {
+
+}
