@@ -14,3 +14,12 @@ Rock Paper Scissors Lizard Spock is an extension of the classic game of chance, 
 ## Project Goals
 
 The goal of this project was to make a simple game that would help players learn the rules of the additional lizard spock components in a fun and playful way.
+
+# User Experience
+
+## User Goals
+
+The user goals of this website are:
+- To **learn** how to play Rock Paper Scissors Lizard Spock.
+- To **practice** their skills and understand the additional choices and combinations that lizard and Spock bring to the traditional game.
+- To have **fun** whilst learning something new.
