@@ -162,7 +162,8 @@ function addUserScore() {
  * Take computer score from the DOM and increment by 1
 */
 function addComputerScore() {
-
+let oldScore = parseInt(document.getElementById("computer-score").textContent);
+document.getElementById("computer-score").textContent = ++oldScore;
 }
 
 /**
