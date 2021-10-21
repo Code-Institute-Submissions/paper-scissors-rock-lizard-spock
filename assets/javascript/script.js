@@ -169,9 +169,19 @@ document.getElementById("computer-score").textContent = ++oldScore;
 /**
  * Launch winner / loser modal based on keeping count of player scores 
  * and triggering once score of 5 is met
- */
+*/
 function trackRounds() {
+  let playerScore = parseInt(document.getElementById("player-score").textContent);
+  let computerScore = parseInt(document.getElementById("computer-score").textContent);
+  /* https://stackoverflow.com/questions/10233550 */
+  let winnerModal = new bootstrap.Modal(document.getElementById("winnerModal"), {});
+  let loserModal = new bootstrap.Modal(document.getElementById("loserModal"), {});
 
+  if (playerScore === 5) {
+    winnerModal.show();
+  } else if (computerScore === 5) {
+    loserModal.show();
+  }
 }
 
 function resetGame() {
