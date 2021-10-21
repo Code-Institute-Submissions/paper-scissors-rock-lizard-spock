@@ -36,15 +36,10 @@ const loserResetButton = document.getElementById("loserReset");
  * and generates random computer choice from choices array
  */
  function playGame(playerChoice) {
-
   playerImage.src = `assets/images/player-${choices[playerChoice]}.png`;
-
   let computerChoice = Math.floor(Math.random() * 5);
-
   computerImage.src = `assets/images/computer-${choices[computerChoice]}.png`;
-
   let result = checkWinner(choices[playerChoice], choices[computerChoice]);
-
 }
 
 /**
