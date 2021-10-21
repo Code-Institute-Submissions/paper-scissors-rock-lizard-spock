@@ -203,6 +203,11 @@ function resetWinnerFunction() {
   location.reload();
 }
 
-function resetLoser() {
-
+/* Add event listener to reset at the bottom of loser modal */
+loserResetButton.addEventListener("click", resetLoserFunction);
+/**
+ * Trigger reload page button at bottom of loser modal
+ */
+function resetLoserFunction() {
+  location.reload();
 }
