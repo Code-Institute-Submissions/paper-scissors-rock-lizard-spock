@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock Game
 
-![Rock Paper Scissors Lizard Spock](docs/testing/readme-header.png)
+![Rock Paper Scissors Lizard Spock](docs/readme/readme-header.png)
 
 [You can view the live site here](https://r3b3l-dev.github.io/paper-scissors-rock-lizard-spock/)
 
@@ -45,4 +45,10 @@ This game is targeted towards both children and adults. The simple clean interfa
 
 The colour scheme takes inspiration from traditional marvel comic book covers and is meant to evoke feelings of fun and playfulness.
 
-![](docs/testing/site-palette.png)
+![](docs/readme/site-palette.png)
+
+### Font
+
+![Rock Paper Scissors Lizard Spock](docs/readme/font-readme.png)
+
+Bangers is a comic book style font which packs a punch! It is designed in the style of mid-20th century superhero comics cover lettering. The font was chosen to add a playful and fun feel to the game.
