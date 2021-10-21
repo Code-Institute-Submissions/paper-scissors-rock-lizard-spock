@@ -12,7 +12,7 @@ const loserResetButton = document.getElementById("loserReset");
 
 /**
  * Function to run scrolling title text displaying name of game
- */
+*/
 // https://stackoverflow.com/questions/16354122/
 (function titleScroller(text) {
   document.title = text;
@@ -23,8 +23,8 @@ const loserResetButton = document.getElementById("loserReset");
 
 /**
  * Add event listener to all player choice buttons
- */
- for (let button of buttons) {
+*/
+for (let button of buttons) {
   button.addEventListener("click", function () {
     let playerChoice = this.getAttribute("data-type");
     playGame(playerChoice);
@@ -34,8 +34,8 @@ const loserResetButton = document.getElementById("loserReset");
 /**
  * This is for the core game functionality. Takes the data-type value parameter of the selected button
  * and generates random computer choice from choices array
- */
- function playGame(playerChoice) {
+*/
+function playGame(playerChoice) {
   playerImage.src = `assets/images/player-${choices[playerChoice]}.png`;
   let computerChoice = Math.floor(Math.random() * 5);
   computerImage.src = `assets/images/computer-${choices[computerChoice]}.png`;
@@ -46,8 +46,8 @@ const loserResetButton = document.getElementById("loserReset");
 
 /**
  * Compares playerChoice and computerChoice data strings to check winner of game
- */
- function checkWinner(playerChoice, computerChoice) {
+*/
+function checkWinner(playerChoice, computerChoice) {
   /* If player chooses rock */
   if (playerChoice === "rock" && computerChoice === "rock") {
     document.getElementById("messages").innerHTML = "Draw!";
@@ -152,14 +152,15 @@ const loserResetButton = document.getElementById("loserReset");
 
 /**
  * Take user score from the DOM and increment by 1
- */
+*/
 function addUserScore() {
-
+  let oldScore = parseInt(document.getElementById("player-score").textContent);
+  document.getElementById("player-score").textContent = ++oldScore;
 }
 
 /**
  * Take computer score from the DOM and increment by 1
- */
+*/
 function addComputerScore() {
 
 }
