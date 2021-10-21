@@ -30,8 +30,50 @@ body {
 }
 
 /* Font colors */
+h1, h2, h3 {
+  color: white;
+}
 
 /* button styling */
+button {
+  display: inline-block;
+  font-family: 'Bangers', cursive;
+  border-radius: 5px;
+  padding: 8px 25px;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: var(--red);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px #999;
+}
+
+button:hover {background-color: var(--red)}
+
+button:active {
+  background-color: var(--red);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'Bangers', cursive;
+  border-radius: 5px;
+  padding: 8px 25px;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: var(--red);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px #999;
+}
 
 /* Change bootstrap hover default styling */
 
