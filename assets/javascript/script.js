@@ -185,8 +185,13 @@ function trackRounds() {
   }
 }
 
-function resetGame() {
-
+/* Add event listener to reset button on top of page */
+resetButton.addEventListener("click", resetFunction);
+/**
+ * Resets the page when reload button selected
+ */
+function resetFunction() {
+  location.reload();
 }
 
 function resetWinner() {
