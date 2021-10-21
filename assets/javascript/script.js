@@ -20,3 +20,13 @@ const loserResetButton = document.getElementById("loserReset");
     titleScroller(text.substr(1) + text.substr(0, 1));
   }, 250);
 }(" | Rock | Paper | Scissors | Lizard | Spock "));
+
+/**
+ * Add event listener to all player choice buttons
+ */
+ for (let button of buttons) {
+  button.addEventListener("click", function () {
+    let playerChoice = this.getAttribute("data-type");
+    playGame(playerChoice);
+  });
+}
