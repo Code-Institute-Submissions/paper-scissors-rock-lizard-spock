@@ -76,6 +76,9 @@ button:active {
 }
 
 /* Change bootstrap hover default styling */
+.btn:hover {
+  color: white;
+}
 
 /* Remove bullet points style from rule list */
 
