@@ -42,6 +42,7 @@ function playGame(playerChoice) {
   let result = checkWinner(choices[playerChoice], choices[computerChoice]);
 
   checkWinner(result);
+  trackRounds();
 }
 
 /**
