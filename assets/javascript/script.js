@@ -1,5 +1,6 @@
+/* https://stackoverflow.com/questions/27441803 */
+/*jshint esversion: 6 */
 /* Cache DOM elements */
-
 const buttons = document.getElementsByClassName("control");
 const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
