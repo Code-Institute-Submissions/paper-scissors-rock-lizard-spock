@@ -9,3 +9,14 @@ const winnerResetButton = document.getElementById("winnerReset");
 const loserResetButton = document.getElementById("loserReset");
 /*const winMessages = ["You are lucky today", "Well done rock star", "Superstar wins again"];*/
 /*const loserMessages = ["You are unlucky today", "Well done to the computer", "Today is not your day :("];*/
+
+/**
+ * Function to run scrolling title text displaying name of game
+ */
+// https://stackoverflow.com/questions/16354122/
+(function titleScroller(text) {
+  document.title = text;
+  setTimeout(function () {
+    titleScroller(text.substr(1) + text.substr(0, 1));
+  }, 250);
+}(" | Rock | Paper | Scissors | Lizard | Spock "));
