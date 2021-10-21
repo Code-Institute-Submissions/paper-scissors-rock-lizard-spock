@@ -31,22 +31,47 @@ const loserResetButton = document.getElementById("loserReset");
   });
 }
 
-function playGame() {
+/**
+ * This is for the core game functionality. Takes the data-type value parameter of the selected button
+ * and generates random computer choice from choices array
+ */
+ function playGame(playerChoice) {
+
+  playerImage.src = `assets/images/player-${choices[playerChoice]}.png`;
+
+  let computerChoice = Math.floor(Math.random() * 5);
+
+  computerImage.src = `assets/images/computer-${choices[computerChoice]}.png`;
+
+  let result = checkWinner(choices[playerChoice], choices[computerChoice]);
 
 }
 
+/**
+ * Compares playerChoice and computerChoice data strings to check winner of game
+ */
 function checkWinner() {
 
 }
 
+/**
+ * Take user score from the DOM and increment by 1
+ */
 function addUserScore() {
 
 }
 
+/**
+ * Take computer score from the DOM and increment by 1
+ */
 function addComputerScore() {
 
 }
 
+/**
+ * Launch winner / loser modal based on keeping count of player scores 
+ * and triggering once score of 5 is met
+ */
 function trackRounds() {
 
 }
