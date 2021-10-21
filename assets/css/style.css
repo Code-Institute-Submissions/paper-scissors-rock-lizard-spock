@@ -104,6 +104,12 @@ li {
 }
 
 /* Add border styling to choice area */
+.choice-area {
+  border: 3px solid #000;
+  border-radius: 15px;
+  box-shadow: 5px 5px #999;
+  background-color: white;
+}
 
 /* Add border styling to message area */
 
