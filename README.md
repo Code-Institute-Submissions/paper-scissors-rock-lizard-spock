@@ -36,3 +36,13 @@ This game is targeted towards both children and adults. The simple clean interfa
 4. As a new user I want to be able to tell what option the computer chose against me.
 5. As a new user I want to be able to reset the overall game at any point to start again.
 6. As a new user I want to be able to see if i have won or lost the overall game against the computer.
+
+# Wire frame
+[You can view the wire frame here](docs/wireframes/wireframe.png)
+
+# Surface
+### Color Scheme
+
+The colour scheme takes inspiration from traditional marvel comic book covers and is meant to evoke feelings of fun and playfulness.
+
+![](docs/testing/site-palette.png)
