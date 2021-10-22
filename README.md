@@ -168,3 +168,15 @@ Main Background Image from [Shutterstock](https://www.shutterstock.com/image-vec
 Player Selection Icons from [PNGEGG](https://unsplash.com/@icons8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Computer Selection Icons from [PNGEGG](https://unsplash.com/@icons8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+# Acknowledgments & References
+
+CSS Framework and Modals [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+CSS & HTML [W3Schools](https://www.w3schools.com/)
+
+External references for specific code is included in comments. These are from [StackOverflow](https://stackoverflow.com/) 
+
+### Disclaimer
+
+The content of this website is for educational purposes only and not intended for commercial use.
