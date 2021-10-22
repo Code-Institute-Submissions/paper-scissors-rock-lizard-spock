@@ -107,3 +107,6 @@ The winner modal is displayed when the user is the first to score 5 points. The 
 
 The loser modal is displayed when the computer is the first to score 5 points. The play again button refreshes the game and resets the scores to 0. 
 **The modal can only close by hitting the play again button.**
+
+# Testing 
+[You can view the testing file here](docs/testing/TESTING.md)
