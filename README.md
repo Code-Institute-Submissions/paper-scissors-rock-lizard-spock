@@ -109,4 +109,25 @@ The loser modal is displayed when the computer is the first to score 5 points. T
 **The modal can only close by hitting the play again button.**
 
 # Testing 
+
 [You can view the testing file here](docs/testing/TESTING.md)
+
+# Deployment
+
+The project was deployed to Github pages using the following steps;
+  
+  1. Once logged in to **Github**, navigate to the site's repository.
+  2. Under repository name , click **Settings**.
+  3. In the left sidebar, click **Pages** or scroll down to **Pages** section.
+  4. Under Source, select **Master Branch** and hit **Save**.
+  5. To see your published site, under **Github Pages**, click the sites url.
+
+
+# Technologies Used
+
+
+## Code Repository, Writing and Version Control
+
+Gitpod - [gitpod.io](https://gitpod.io)
+
+GitHub - [https://github.com/](https://github.com/)

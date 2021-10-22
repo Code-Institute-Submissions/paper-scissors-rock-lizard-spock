@@ -1,3 +1,7 @@
+# Rock Paper Scissors Lizard Spock Game - Testing
+
+[You can view the README.md file here](/docs/testing/TESTING.md)
+
 # User Story Testing
 
 1. As a new user I want to play Rock Paper Scissors Lizard Spock.
