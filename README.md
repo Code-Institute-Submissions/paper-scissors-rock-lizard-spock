@@ -85,3 +85,25 @@ This section visually displays the user choice image and the computer choice ima
 ![](docs/readme/game-selection-buttons.png)
 
 The game options are displayed at the bottom of the screen and allow the user to select an option. This kicks off the game functionality.
+
+# Modals
+
+## Rules Modal
+
+![](docs/readme/rules-modal.png)
+
+This modal displays the rules of the game and is available to click at any time during an ongoing game.
+
+## Winner Modal
+
+![](docs/readme/winner-modal.png)
+
+The winner modal is displayed when the user is the first to score 5 points. The play again button refreshes the game and resets the scores to 0. 
+**The modal can only close by hitting the play again button.**
+
+## Loser Modal
+
+![](docs/readme/loser-modal.png)
+
+The loser modal is displayed when the computer is the first to score 5 points. The play again button refreshes the game and resets the scores to 0. 
+**The modal can only close by hitting the play again button.**
