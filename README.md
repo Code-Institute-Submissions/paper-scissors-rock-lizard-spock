@@ -52,3 +52,36 @@ The colour scheme takes inspiration from traditional marvel comic book covers an
 ![Rock Paper Scissors Lizard Spock](docs/readme/font-readme.png)
 
 Bangers is a comic book style font which packs a punch! It is designed in the style of mid-20th century superhero comics cover lettering. The font was chosen to add a playful and fun feel to the game.
+
+# Game Features
+
+![](docs/readme/main-screenshot.png)
+
+## Reset and Rules
+
+![](docs/readme/reset-rules.png)
+
+The rules button in the top left corner of the screen allows the user to quickly access the rules of the game. 
+If there is a need to reset the game at any point before either player reaches a score of 5 this can be done in the top right of the screen via the reset button.
+
+
+## Player Score Area and Winner Announcement
+
+![](docs/readme/player-score.png)
+![](docs/readme/win-message.png)
+![](docs/readme/lose-message.png)
+![](docs/readme/draw-message.png)
+
+The player score is prominent clear and easy for the user to understand if they are winning or losing in the game. The "First to 5 Wins the Game" message explains how the game is won and is replaced with a win, draw or lose message including a message explaining which choice won.
+
+## The Player Choice Display Section
+
+![](docs/readme/choice-area.png)
+
+This section visually displays the user choice image and the computer choice image based on their selection.
+
+## The Game Option Buttons
+
+![](docs/readme/game-selection-buttons.png)
+
+The game options are displayed at the bottom of the screen and allow the user to select an option. This kicks off the game functionality.
