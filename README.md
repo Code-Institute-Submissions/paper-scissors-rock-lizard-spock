@@ -131,3 +131,19 @@ The project was deployed to Github pages using the following steps;
 Gitpod - [gitpod.io](https://gitpod.io)
 
 GitHub - [https://github.com/](https://github.com/)
+
+## Software
+
+Favicon - [favicon.io](https://favicon.io/)
+
+Wire frames - [Balsamiq](https://balsamiq.com/)
+
+Images Resizing - [resizeimage.net](https://resizeimage.net/)
+
+Fonts - [Google Fonts](https://fonts.google.com/)
+
+Icons - [Font Awesome](https://fontawesome.com/)
+
+Responsive Screenshots - [Am I Responsive](http://ami.responsivedesign.is/)
+
+Site Palette for Readme - [Site Palette](https://palette.site/)
