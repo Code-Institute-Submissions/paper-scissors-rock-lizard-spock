@@ -60,3 +60,16 @@ HTML - [W3C Markup Validation Service](https://validator.w3.org/)
 - Document checking completed. No errors or warnings to show.
 
 ![](/docs/testing/w3c-html.png)
+
+# Accessibility / SEO / Performance
+
+## Google Lighthouse
+Google lighthouse was used to test for accessibility / seo / performance.
+
+![](/docs/testing/lighthouse-readme.png)
+
+# GTmetrix
+
+GTmetrix was used for web page performance testing
+
+![](/docs/testing/gtmetrix-screenshot.png)
