@@ -147,3 +147,24 @@ Icons - [Font Awesome](https://fontawesome.com/)
 Responsive Screenshots - [Am I Responsive](http://ami.responsivedesign.is/)
 
 Site Palette for Readme - [Site Palette](https://palette.site/)
+
+## Framework and Languages
+
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+[CSS3](https://en.wikipedia.org/wiki/CSS)
+
+[BOOTSTRAP v5.1.3](https://getbootstrap.com/)
+
+# Credits
+
+## Game Images
+
+
+Main Background Image from [Shutterstock](https://www.shutterstock.com/image-vector/comic-competition-speech-bubbles-set-expression-618357410)
+
+Player Selection Icons from [PNGEGG](https://unsplash.com/@icons8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Computer Selection Icons from [PNGEGG](https://unsplash.com/@icons8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
