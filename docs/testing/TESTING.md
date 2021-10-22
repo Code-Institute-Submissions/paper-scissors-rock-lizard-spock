@@ -44,3 +44,19 @@ JSHint - [JSHint Static Code Analysis](https://jshint.com/)
 
 
 ![](/docs/testing/jshint.png)
+
+## CSS Markup Validation 
+
+CSS - [W3C Markup Validation Service](https://validator.w3.org/) 
+
+- Congratulations! No Error Found.
+
+![](/docs/testing/w3c-css.png)
+
+
+## HTML Markup Validation
+HTML - [W3C Markup Validation Service](https://validator.w3.org/) 
+
+- Document checking completed. No errors or warnings to show.
+
+![](/docs/testing/w3c-html.png)
