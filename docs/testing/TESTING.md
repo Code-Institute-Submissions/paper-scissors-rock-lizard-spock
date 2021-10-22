@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock Game - Testing
 
-[You can view the README.md file here](/docs/testing/TESTING.md)
+[You can view the main README.md file here](/docs/testing/TESTING.md)
 
 # User Story Testing
 
@@ -77,3 +77,9 @@ Google lighthouse was used to test for accessibility / seo / performance.
 GTmetrix was used for web page performance testing
 
 ![](/docs/testing/gtmetrix-screenshot.png)
+
+# Github Issue Tracker
+
+![](/docs/testing/github-issues.png)
+
+Github issues was used to track bugs, todos and any issues for the project.

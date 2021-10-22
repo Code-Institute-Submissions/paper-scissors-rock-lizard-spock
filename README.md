@@ -130,7 +130,11 @@ The project was deployed to Github pages using the following steps;
 
 Gitpod - [gitpod.io](https://gitpod.io)
 
-GitHub - [https://github.com/](https://github.com/)
+GitHub - [github.com](https://github.com/)
+
+## Code Issue Tracker
+
+GitHub Issues - [github.com/issues](https://github.com/features/issues/)
 
 ## Software
 
